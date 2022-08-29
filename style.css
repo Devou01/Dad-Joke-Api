@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(42, 116, 165);
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container{
+    background-color: blueviolet;
+    padding: 20px;
+    position: relative;
+    width: 500px;
+    height: 300px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+
+#btn{
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+    width: 100px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    
+}
+
+
+#joke{
+    font-size: 20px;
+    color: white;
+}
